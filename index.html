@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <title>The responsive Bootstrap grid</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Discovering Bootstrap 5.1</a>
+        <div class="navbar-text" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Photos</a></li>
+                <li><a class="dropdown-item" href="#">Articles</a></li>
+                <li><a class="dropdown-item" href="#">Projets</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+
+      <h1 class="mt-5 mb-4 text-center">Journey into Bootstrap classes</h1>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card border-light shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
+            <img
+              src="./images/woman-sitting.png"
+              class="card-img-top"
+              alt="woman sits on surfborad waiting for a wave"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Waiting the wave</h5>
+              <p class="card-text">
+                On the board, waiting becomes meditation. The surfer paddles,
+                riding the crest—an eternal, perfect fusion with nature,
+                fleeting yet unforgettable.
+              </p>
+              <div class="button text-center">
+                <a href="#" class="btn btn-primary" text-center>Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+        <div class="card border-light shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
+          <img
+            src="./images/man_climb.png"
+            class="card-img-top"
+            alt="woman sits on surfborad waiting for a wave"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Climb the mountain</h5>
+            <p class="card-text">
+              Each step, a meditation. The climber ascends, breath thinning,
+              anticipation rising. At the peak, an ephemeral embrace with
+              nature's majesty.
+            </p>
+            <div class="button text-center">
+              <a href="#" class="btn btn-primary" text-center>Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
+          <img
+            src="./images/woman-hiker-lead-100px.png"
+            class="card-img-top"
+            alt="woman sits on surfborad waiting for a wave"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Hiking</h5>
+            <p class="card-text">
+              Step by step, the hiker traverses the trail. Each stride a
+              meditation, nature's beauty a rewarding embrace at the journey's
+              end.
+            </p>
+            <div class="button text-center">
+              <a href="#" class="btn btn-primary" text-center>Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-light shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
+          <img
+            src="./images/man-powder-snowboarding.png"
+            class="card-img-top"
+            alt="woman sits on surfborad waiting for a wave"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Snwobording</h5>
+            <p class="card-text">
+              Gliding down, each turn a dance. The snowboarder carves through
+              snow, a thrilling ride. Nature's canvas, an exhilarating
+              playground embraced.
+            </p>
+            <div class="button text-center">
+              <a href="#" class="btn btn-primary" text-center>Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <h2 class="mt-5 mb-3 text-center">The framework CSS are very usefuel</h2>
+    <p class="mt-2 mb-6 fs-5 text-center">Learning them comes with practice</p>
+
+    <nav class="navbar navbar-expand-lg bg-primary " data-bs-theme="dark">
+      <div class="container text-center">
+        <p class="fs-5 text-center"> &copy;2023 Wild Code School of Lyon - PHP Session</p>
+      </div>
+    </nav>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
